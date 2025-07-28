@@ -2,7 +2,7 @@
 SCRIPTPATH=`dirname "$(readlink -f "$0")"`
 cd $SCRIPTPATH 
 
-if [ -d tablpl ]; then
+if [ -d tabpl ]; then
     echo tabpl present
 else
     cat tabpl_{a,b,c,d,e}* > tabpl.tar.bz2
